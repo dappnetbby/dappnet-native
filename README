@@ -1,0 +1,15 @@
+DAPPNET NATIVE
+
+* 5MB macOS binary, containing IPFS, Ethereum node, and web browser
+* native ObjC + Cocoa UI. 
+* alt-tab through uniswap, 1inch, etc.
+* extremely low footprint
+
+
+The end extension of this is to build a native macOS Ethereum wallet. 
+
+You can install dapps by opening dappnet://uniswap.eth, clicking download, which downloads the web app as a .zip from IPFS to your computer.
+
+Then the web app is yours to keep, it instantly loads. Suddenly - we have an app distribution method that is like an app store, but decentralized.
+
+Uniswap, Curve, etc. will show a native application icon in the dock.

@@ -1,0 +1,22 @@
+
+
+Program requires these running binaries:
+
+- ipfs
+- local-gateway
+
+
+## local-gateway
+
+```sh
+cd local-gateway-go/
+go build
+./local-gateway
+```
+
+## ipfs
+
+```sh
+IPFS_PATH="/Users/liamz/Library/Application Support/.ipfs/" IPFS_CONFIG_PATH="/Users/liamz/Library/Application Support/.ipfs/config" 
+/Applications/Dappnet.app/Contents/Resources/app.asar.unpacked/vendor/ipfs/kubo_v0.18.1_darwin-amd64/ipfs daemon
+```
