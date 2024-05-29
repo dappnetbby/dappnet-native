@@ -1,0 +1,72 @@
+
+
+- dapps
+-- build the dapp as a .zip 
+-- test it (open it in the browser by running `python -m http.server 8081`) http://localhost:8081
+-- tar archive it
+-- upload it to the VPS server
+-- now echo back to user:
+    congratulations. now your dapp is available at dappnet://
+
+
+
+
+- user
+-- installs the dappnet binary or whatever. run and compile
+-- opens the first dappnet page, dappnet.eth
+
+
+
+- VPS server
+-- [x] handle file uploads
+-- [x] buy VPS
+-- [x] deploy program to VPS (git whatever)
+-- [x] write a thing which autotorrents each .tar file in the uploads/ folder on VPS
+-- [x] test it
+-- [x] deploy it
+
+
+
+
+
+decentralization:
+- deploy a contract to optimism 
+- post your publishing key to the ENS contract on L1
+
+
+
+
+
+- VPS server.
+
+host server at http://localhost:${port}/torrents/new
+upload a single file via HTTP POST 
+it returns the infohash of the file, as well as a magnet link in a JSON API response
+
+
+
+desktop client:
+- enter .eth domain (which is actually a dappnet://infohash)
+- show a progress bar
+
+have the render engine
+have a loading bar from bittorrent
+poll the bittorrent
+- total size
+- bytes downloaded
+- progress = downloaded / size
+when it is done. then extract it
+and load it
+
+
+run a simple http server
+it 
+
+
+
+
+
+
+
+QR bootloader
+
